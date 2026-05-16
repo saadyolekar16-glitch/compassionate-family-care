@@ -297,6 +297,25 @@ function Contact() {
                   Belagavi, Karnataka 590001
                 </p>
               </div>
+              <div className="overflow-hidden rounded-2xl border border-primary-foreground/10">
+                <iframe
+                  title="Gawas Clinic location map"
+                  src="https://www.google.com/maps?q=Gawas+Clinic+Khadak+Galli+Raviwar+Peth+Belagavi&output=embed"
+                  width="100%"
+                  height="240"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="block w-full border-0"
+                />
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=Gawas+Clinic+Khadak+Galli+Raviwar+Peth+Belagavi+Karnataka+590001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block bg-primary-foreground/5 px-4 py-3 text-center text-xs font-bold uppercase tracking-widest text-accent hover:bg-primary-foreground/10"
+                >
+                  Get Directions →
+                </a>
+              </div>
               <div className="flex gap-5">
                 <span className="pt-1 text-[10px] font-bold uppercase tracking-wider text-accent">
                   Contact
